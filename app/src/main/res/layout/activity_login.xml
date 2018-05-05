@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trang"
+    tools:context="com.muasenh.imictraining.views.LoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/ll_toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/nen"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:text="ĐĂNG NHẬP IMIC"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/trang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/iv_student"
+        android:layout_below="@id/ll_toolbar"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_student"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:layout_below="@id/iv_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_dangnhap"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/edt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tên đăng nhập"
+                android:inputType="text"
+                android:textSize="16dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/til_email"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/edt_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:textSize="16dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/cb_remenber"
+                android:layout_marginLeft="16dp"
+                android:text="Nhớ mật khẩu"
+                android:textColor="@color/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_quenmk"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/chudo"
+                android:text="Quên mật khẩu?"/>
+        </RelativeLayout>
+
+        <TextView
+            android:text="ĐĂNG NHẬP"
+            android:id="@+id/btn_login"
+            android:layout_marginTop="16dp"
+            style="@style/btn" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_icon_imic"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/img_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+
+</RelativeLayout>

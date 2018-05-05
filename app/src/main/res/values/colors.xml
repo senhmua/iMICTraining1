@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BDBDBD</color>
+    <color name="colorPrimaryDark">#BDBDBD</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="trang">#FFFFFF</color>
+    <color name="nen">#424242</color>
+    <color name="den">#000000</color>
+    <color name="toolbar">#BDBDBD</color>
+    <color name="nen2">#9e9e9e</color>
+    <color name="chuxam">#eeeeee</color>
+    <color name="button">#0288D1</color>
+    <color name="chudo">#f44336</color>
+
+</resources>

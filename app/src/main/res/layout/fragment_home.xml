@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nen2"
+    tools:context="com.muasenh.imictraining.views.fragment.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_imicrosoft" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IMicroSoft tự hào là doanh nghiệp đầu tiên tại Việt Nam triển khai các Chương trình Đào tạo chuyên môn thực tế cho Học viên ngành CNTT/CNPM. Cũng là một trong những doanh nghiệp đạt được nhiều giải thưởng lớn trong lĩnh vực này. Góp phần phát triển mạnh ngành CNTT/CNPM tại nước ta hiện nay."
+            android:textColor="@color/trang"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GIẢI PHÁP VÀ PHẦN MỀM"
+                android:textColor="@color/chuxam"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IMICChanel\nThiết kế web bán hàng\nBán hàng trên Facebook\nBán hàng trên Zalo\nBán hàng trên Lazada\nBán hàng tại cửa hàng\nPhần mềm Q/lý Bệnh viện\nPhần mềm Q/lý Nhân sự\nBán hàng đa kênh\nLàm website chuyên nghiệp\nThiết kế web chuẩn SEO\nThiết kế website doanh nghiệp\nThiết kế website bất động sản\nThiết kế website nhà hàng\nPhần mềm Q/lý Đào tạo\nPhần mềm Q/lý Salon/Spa"
+                android:textColor="@color/chuxam"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ĐÀO TẠO NHÂN SỰ"
+                android:textColor="@color/chuxam"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chuyên môn về C#.NET Apps\n
+Chuyên môn về ASP.NET MVC\n
+Chuyên môn về Java Core\n
+Chuyên môn về J2EE Web\n
+Chuyên môn về Mobile Apps\n
+Chuyên môn về Kiểm thử PM\n
+Chuyên môn về MEAN JS\n
+Chuyên môn về Đồ họa 2D, 3D"
+                android:textColor="@color/chuxam"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="THÔNG TIN LIÊN HỆ"
+                android:textColor="@color/chuxam"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VP ĐÀO TẠO HÀ NỘI\nĐịa chỉ: Tầng 2B, tòa nhà T6-08 Tổng Cục 5, Bộ Công An, Số 643A Phạm Văn Đồng, B.Từ Liêm, Hà Nội.\nĐiện thoại: (024)3 7557 666 - (024)3 7557 333 - 0916 878 224\nEmail: tuvan@imicrosoft.edu.vn\nFacebook: facebook.com/imicrosoft.edu.vn"
+                android:textColor="@color/chuxam"/>
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VP ĐÀO TẠO HỒ CHÍ MINH\nĐịa Chỉ:Tầng 6, Tòa nhà Viễn Đông, Số 14 Phan Tôn, Phường Đakao, Quận 1, HCM\nĐiện thoại: (028) 22 53 2345 - 0916 878 224 - 0988 270 588\nEmail: tuvan@imicrosoft.edu.vn\nFacebook: facebook.com/imicrosoft.edu.vn"
+                android:textColor="@color/chuxam"/>
+        </LinearLayout>
+        //end
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
